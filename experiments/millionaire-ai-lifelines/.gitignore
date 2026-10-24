@@ -1,10 +1,12 @@
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 .pytest_cache/
+generated_gifs/
+generated_figures/
 *.png
-*.jpg
-*.jpeg
-*.webp
 *.gif
+*.jpeg
+*.jpg
+*.webp
 .DS_Store

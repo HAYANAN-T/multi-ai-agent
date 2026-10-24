@@ -1,0 +1,85 @@
+{
+  "episodes": 1200,
+  "seed_start": 2026,
+  "calibration": {
+    "heldout_n": 4500,
+    "accuracy": 0.7387,
+    "mean_conf": 0.7432,
+    "brier": 0.1425,
+    "ece_10": 0.0204,
+    "inflated_brier": 0.1704,
+    "inflated_ece_10": 0.1369
+  },
+  "policies": {
+    "Swagger": {
+      "mean_payout": 9847.5,
+      "median_payout": 1000.0,
+      "payout_1000_or_more": 0.6217,
+      "payout_32000_or_more": 0.1675,
+      "millionaire_count": 5,
+      "mean_steps": 6.91,
+      "mean_lifelines_used": 0,
+      "walk_rate": 0
+    },
+    "Flash": {
+      "mean_payout": 14862.5,
+      "median_payout": 1000.0,
+      "payout_1000_or_more": 0.6217,
+      "payout_32000_or_more": 0.1992,
+      "millionaire_count": 10,
+      "mean_steps": 7.08,
+      "mean_lifelines_used": 0.337,
+      "walk_rate": 0
+    },
+    "Chorus": {
+      "mean_payout": 10510.42,
+      "median_payout": 1000.0,
+      "payout_1000_or_more": 0.64,
+      "payout_32000_or_more": 0.1425,
+      "millionaire_count": 0,
+      "mean_steps": 6.74,
+      "mean_lifelines_used": 0.979,
+      "walk_rate": 0.171
+    },
+    "Switch": {
+      "mean_payout": 12911,
+      "median_payout": 1000.0,
+      "payout_1000_or_more": 0.6867,
+      "payout_32000_or_more": 0.1767,
+      "millionaire_count": 1,
+      "mean_steps": 6.8,
+      "mean_lifelines_used": 1.076,
+      "walk_rate": 0.397
+    },
+    "Anchor": {
+      "mean_payout": 3820.92,
+      "median_payout": 500.0,
+      "payout_1000_or_more": 0.425,
+      "payout_32000_or_more": 0.0442,
+      "millionaire_count": 0,
+      "mean_steps": 4.5,
+      "mean_lifelines_used": 0.764,
+      "walk_rate": 0.797
+    },
+    "Compass": {
+      "mean_payout": 32839.75,
+      "median_payout": 1000.0,
+      "payout_1000_or_more": 0.6433,
+      "payout_32000_or_more": 0.2692,
+      "millionaire_count": 11,
+      "mean_steps": 7.44,
+      "mean_lifelines_used": 1.269,
+      "walk_rate": 0.156
+    }
+  },
+  "ablation": {
+    "mean_difference": 19975.83,
+    "median_difference": 0.0,
+    "bootstrap95": [
+      14060.56,
+      26255.73
+    ],
+    "positive_pair_rate": 0.223,
+    "negative_pair_rate": 0.033
+  }
+}

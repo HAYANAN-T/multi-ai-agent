@@ -1,0 +1,1484 @@
+{
+  "seed": 42,
+  "players": [
+    {
+      "name": "Swagger",
+      "final": 1000,
+      "status": "wrong",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Swagger",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Swagger",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Swagger",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 300
+        },
+        {
+          "question_number": 4,
+          "amount": 500,
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Indian",
+            "Pacific",
+            "Arctic",
+            "Atlantic"
+          ],
+          "correct_index": 1,
+          "agent": "Swagger",
+          "beliefs": [
+            0.01847,
+            0.97793,
+            0.00092,
+            0.00269
+          ],
+          "estimated_confidence": 0.97793,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 300,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 500
+        },
+        {
+          "question_number": 5,
+          "amount": 1000,
+          "question": "How many sides does a hexagon have?",
+          "options": [
+            "Five",
+            "Seven",
+            "Six",
+            "Eight"
+          ],
+          "correct_index": 2,
+          "agent": "Swagger",
+          "beliefs": [
+            0.02658,
+            0.01915,
+            0.9476,
+            0.00667
+          ],
+          "estimated_confidence": 0.9476,
+          "choice": 2,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 500,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 1000
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Swagger",
+          "beliefs": [
+            0.07711,
+            0.22887,
+            0.05605,
+            0.63797
+          ],
+          "estimated_confidence": 0.63797,
+          "choice": 3,
+          "action": "ANSWER",
+          "reason": "always answers",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "WRONG",
+          "paid": 1000
+        }
+      ]
+    },
+    {
+      "name": "Flash",
+      "final": 1000,
+      "status": "wrong",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Flash",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 87% as 99%",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Flash",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 83% as 99%",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Flash",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 67% as 89%",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 300
+        },
+        {
+          "question_number": 4,
+          "amount": 500,
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Indian",
+            "Pacific",
+            "Arctic",
+            "Atlantic"
+          ],
+          "correct_index": 1,
+          "agent": "Flash",
+          "beliefs": [
+            0.01847,
+            0.97793,
+            0.00092,
+            0.00269
+          ],
+          "estimated_confidence": 0.97793,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 98% as 99%",
+          "won_before": 300,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 500
+        },
+        {
+          "question_number": 5,
+          "amount": 1000,
+          "question": "How many sides does a hexagon have?",
+          "options": [
+            "Five",
+            "Seven",
+            "Six",
+            "Eight"
+          ],
+          "correct_index": 2,
+          "agent": "Flash",
+          "beliefs": [
+            0.02658,
+            0.01915,
+            0.9476,
+            0.00667
+          ],
+          "estimated_confidence": 0.9476,
+          "choice": 2,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 95% as 99%",
+          "won_before": 500,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 1000
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Flash",
+          "beliefs": [
+            0.07711,
+            0.22887,
+            0.05605,
+            0.63797
+          ],
+          "estimated_confidence": 0.63797,
+          "choice": 3,
+          "action": "ANSWER",
+          "reason": "overconfident: treats 64% as 86%",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "WRONG",
+          "paid": 1000
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "final": 1000,
+      "status": "wrong",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Chorus",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "AUDIENCE",
+          "reason": "puts immediate trust in the crowd",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "help": {
+            "counts": [
+              1,
+              35,
+              3,
+              1
+            ],
+            "correlated_misconception": false
+          },
+          "beliefs_after": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Chorus",
+          "beliefs": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "estimated_confidence": 1.0,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Chorus",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Chorus",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 300
+        },
+        {
+          "question_number": 4,
+          "amount": 500,
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Indian",
+            "Pacific",
+            "Arctic",
+            "Atlantic"
+          ],
+          "correct_index": 1,
+          "agent": "Chorus",
+          "beliefs": [
+            0.01847,
+            0.97793,
+            0.00092,
+            0.00269
+          ],
+          "estimated_confidence": 0.97793,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 300,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 500
+        },
+        {
+          "question_number": 5,
+          "amount": 1000,
+          "question": "How many sides does a hexagon have?",
+          "options": [
+            "Five",
+            "Seven",
+            "Six",
+            "Eight"
+          ],
+          "correct_index": 2,
+          "agent": "Chorus",
+          "beliefs": [
+            0.02658,
+            0.01915,
+            0.9476,
+            0.00667
+          ],
+          "estimated_confidence": 0.9476,
+          "choice": 2,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 500,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 1000
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Chorus",
+          "beliefs": [
+            0.07711,
+            0.22887,
+            0.05605,
+            0.63797
+          ],
+          "estimated_confidence": 0.63797,
+          "choice": 3,
+          "action": "ANSWER",
+          "reason": "follows popular or initial answer",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "50:50",
+            "FRIEND"
+          ],
+          "result": "WRONG",
+          "paid": 1000
+        }
+      ]
+    },
+    {
+      "name": "Switch",
+      "final": 1000,
+      "status": "wrong",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Switch",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Switch",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Switch",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "50:50",
+          "reason": "uses elimination at the first notable uncertainty",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "help": {
+            "removed": [
+              3,
+              0
+            ]
+          },
+          "beliefs_after": [
+            0.0,
+            0.78912,
+            0.21088,
+            0.0
+          ]
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Switch",
+          "beliefs": [
+            0.0,
+            0.78912,
+            0.21088,
+            0.0
+          ],
+          "estimated_confidence": 0.78912,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 300
+        },
+        {
+          "question_number": 4,
+          "amount": 500,
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Indian",
+            "Pacific",
+            "Arctic",
+            "Atlantic"
+          ],
+          "correct_index": 1,
+          "agent": "Switch",
+          "beliefs": [
+            0.01847,
+            0.97793,
+            0.00092,
+            0.00269
+          ],
+          "estimated_confidence": 0.97793,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 300,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 500
+        },
+        {
+          "question_number": 5,
+          "amount": 1000,
+          "question": "How many sides does a hexagon have?",
+          "options": [
+            "Five",
+            "Seven",
+            "Six",
+            "Eight"
+          ],
+          "correct_index": 2,
+          "agent": "Switch",
+          "beliefs": [
+            0.02658,
+            0.01915,
+            0.9476,
+            0.00667
+          ],
+          "estimated_confidence": 0.9476,
+          "choice": 2,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 500,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 1000
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Switch",
+          "beliefs": [
+            0.07711,
+            0.22887,
+            0.05605,
+            0.63797
+          ],
+          "estimated_confidence": 0.63797,
+          "choice": 3,
+          "action": "ANSWER",
+          "reason": "fixed threshold permits guess",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "WRONG",
+          "paid": 1000
+        }
+      ]
+    },
+    {
+      "name": "Anchor",
+      "final": 200,
+      "status": "walked",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Anchor",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "confident enough to risk",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Anchor",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "confident enough to risk",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Anchor",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "WALK",
+          "reason": "protects banked winnings at a fixed threshold",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "WALK",
+          "paid": 200
+        }
+      ]
+    },
+    {
+      "name": "Compass",
+      "final": 8000,
+      "status": "walked",
+      "events": [
+        {
+          "question_number": 1,
+          "amount": 100,
+          "question": "Which planet is known as the Red Planet?",
+          "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Mercury"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.04749,
+            0.86797,
+            0.07637,
+            0.00817
+          ],
+          "estimated_confidence": 0.86797,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $87 >= guaranteed walk $0",
+          "won_before": 0,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 100
+        },
+        {
+          "question_number": 2,
+          "amount": 200,
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+          ],
+          "correct_index": 0,
+          "agent": "Compass",
+          "beliefs": [
+            0.82856,
+            0.07291,
+            0.01312,
+            0.08541
+          ],
+          "estimated_confidence": 0.82856,
+          "choice": 0,
+          "action": "ANSWER",
+          "reason": "expected guess $166 >= guaranteed walk $100",
+          "won_before": 100,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 200
+        },
+        {
+          "question_number": 3,
+          "amount": 300,
+          "question": "Which instrument measures temperature?",
+          "options": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Altimeter"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.03522,
+            0.67064,
+            0.17922,
+            0.11492
+          ],
+          "estimated_confidence": 0.67064,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $201 >= guaranteed walk $200",
+          "won_before": 200,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 300
+        },
+        {
+          "question_number": 4,
+          "amount": 500,
+          "question": "Which ocean is the largest on Earth?",
+          "options": [
+            "Indian",
+            "Pacific",
+            "Arctic",
+            "Atlantic"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.01847,
+            0.97793,
+            0.00092,
+            0.00269
+          ],
+          "estimated_confidence": 0.97793,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $489 >= guaranteed walk $300",
+          "won_before": 300,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 500
+        },
+        {
+          "question_number": 5,
+          "amount": 1000,
+          "question": "How many sides does a hexagon have?",
+          "options": [
+            "Five",
+            "Seven",
+            "Six",
+            "Eight"
+          ],
+          "correct_index": 2,
+          "agent": "Compass",
+          "beliefs": [
+            0.02658,
+            0.01915,
+            0.9476,
+            0.00667
+          ],
+          "estimated_confidence": 0.9476,
+          "choice": 2,
+          "action": "ANSWER",
+          "reason": "expected guess $948 >= guaranteed walk $500",
+          "won_before": 500,
+          "safe_before": 0,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 1000
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.07711,
+            0.22887,
+            0.05605,
+            0.63797
+          ],
+          "estimated_confidence": 0.63797,
+          "choice": 3,
+          "action": "50:50",
+          "reason": "estimated information gain exceeds lifeline preservation cost by $11",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "50:50",
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "help": {
+            "removed": [
+              3,
+              2
+            ]
+          },
+          "beliefs_after": [
+            0.252,
+            0.748,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "question_number": 6,
+          "amount": 2000,
+          "question": "What does DNA stand for?",
+          "options": [
+            "Dinucleic Acid",
+            "Deoxyribonucleic Acid",
+            "Dynamic Nuclear Acid",
+            "Dioxyribose Acid"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.252,
+            0.748,
+            0.0,
+            0.0
+          ],
+          "estimated_confidence": 0.748,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $1,748 >= guaranteed walk $1,000",
+          "won_before": 1000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 2000
+        },
+        {
+          "question_number": 7,
+          "amount": 4000,
+          "question": "Which astronomer identified the moons Io, Europa, Ganymede and Callisto?",
+          "options": [
+            "Tycho Brahe",
+            "Galileo Galilei",
+            "William Herschel",
+            "Edwin Hubble"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.01535,
+            0.94388,
+            0.03561,
+            0.00516
+          ],
+          "estimated_confidence": 0.94388,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $3,832 >= guaranteed walk $2,000",
+          "won_before": 2000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "result": "CORRECT",
+          "paid": 4000
+        },
+        {
+          "question_number": 8,
+          "amount": 8000,
+          "question": "Which country is home to the ancient city of Petra?",
+          "options": [
+            "Egypt",
+            "Jordan",
+            "Greece",
+            "Turkey"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.07341,
+            0.28088,
+            0.58688,
+            0.05883
+          ],
+          "estimated_confidence": 0.58688,
+          "choice": 2,
+          "action": "FRIEND",
+          "reason": "estimated information gain exceeds lifeline preservation cost by $189",
+          "won_before": 4000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE",
+            "FRIEND"
+          ],
+          "help": {
+            "suggested_index": 1
+          },
+          "beliefs_after": [
+            0.02877,
+            0.71817,
+            0.23001,
+            0.02305
+          ]
+        },
+        {
+          "question_number": 8,
+          "amount": 8000,
+          "question": "Which country is home to the ancient city of Petra?",
+          "options": [
+            "Egypt",
+            "Jordan",
+            "Greece",
+            "Turkey"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.02877,
+            0.71817,
+            0.23001,
+            0.02305
+          ],
+          "estimated_confidence": 0.71817,
+          "choice": 1,
+          "action": "ANSWER",
+          "reason": "expected guess $6,027 >= guaranteed walk $4,000",
+          "won_before": 4000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE"
+          ],
+          "result": "CORRECT",
+          "paid": 8000
+        },
+        {
+          "question_number": 9,
+          "amount": 16000,
+          "question": "Which scientist proposed continental drift in 1912?",
+          "options": [
+            "James Hutton",
+            "Alfred Wegener",
+            "Charles Lyell",
+            "Marie Tharp"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.29211,
+            0.07925,
+            0.20196,
+            0.42668
+          ],
+          "estimated_confidence": 0.42668,
+          "choice": 3,
+          "action": "AUDIENCE",
+          "reason": "estimated information gain exceeds lifeline preservation cost by $716",
+          "won_before": 8000,
+          "safe_before": 1000,
+          "lifelines_remaining": [
+            "AUDIENCE"
+          ],
+          "help": {
+            "counts": [
+              3,
+              25,
+              6,
+              6
+            ],
+            "correlated_misconception": false
+          },
+          "beliefs_after": [
+            0.29674,
+            0.1463,
+            0.17893,
+            0.37803
+          ]
+        },
+        {
+          "question_number": 9,
+          "amount": 16000,
+          "question": "Which scientist proposed continental drift in 1912?",
+          "options": [
+            "James Hutton",
+            "Alfred Wegener",
+            "Charles Lyell",
+            "Marie Tharp"
+          ],
+          "correct_index": 1,
+          "agent": "Compass",
+          "beliefs": [
+            0.29674,
+            0.1463,
+            0.17893,
+            0.37803
+          ],
+          "estimated_confidence": 0.37803,
+          "choice": 3,
+          "action": "WALK",
+          "reason": "expected guess $6,670 below guaranteed walk $8,000",
+          "won_before": 8000,
+          "safe_before": 1000,
+          "lifelines_remaining": [],
+          "result": "WALK",
+          "paid": 8000
+        }
+      ]
+    }
+  ],
+  "payouts": {
+    "Swagger": 1000,
+    "Flash": 1000,
+    "Chorus": 1000,
+    "Switch": 1000,
+    "Anchor": 200,
+    "Compass": 8000
+  },
+  "summary": {
+    "episodes": 1200,
+    "seed_start": 2026,
+    "calibration": {
+      "heldout_n": 4500,
+      "accuracy": 0.7387,
+      "mean_conf": 0.7432,
+      "brier": 0.1425,
+      "ece_10": 0.0204,
+      "inflated_brier": 0.1704,
+      "inflated_ece_10": 0.1369
+    },
+    "policies": {
+      "Swagger": {
+        "mean_payout": 9847.5,
+        "median_payout": 1000.0,
+        "payout_1000_or_more": 0.6217,
+        "payout_32000_or_more": 0.1675,
+        "millionaire_count": 5,
+        "mean_steps": 6.91,
+        "mean_lifelines_used": 0,
+        "walk_rate": 0
+      },
+      "Flash": {
+        "mean_payout": 14862.5,
+        "median_payout": 1000.0,
+        "payout_1000_or_more": 0.6217,
+        "payout_32000_or_more": 0.1992,
+        "millionaire_count": 10,
+        "mean_steps": 7.08,
+        "mean_lifelines_used": 0.337,
+        "walk_rate": 0
+      },
+      "Chorus": {
+        "mean_payout": 10510.42,
+        "median_payout": 1000.0,
+        "payout_1000_or_more": 0.64,
+        "payout_32000_or_more": 0.1425,
+        "millionaire_count": 0,
+        "mean_steps": 6.74,
+        "mean_lifelines_used": 0.979,
+        "walk_rate": 0.171
+      },
+      "Switch": {
+        "mean_payout": 12911,
+        "median_payout": 1000.0,
+        "payout_1000_or_more": 0.6867,
+        "payout_32000_or_more": 0.1767,
+        "millionaire_count": 1,
+        "mean_steps": 6.8,
+        "mean_lifelines_used": 1.076,
+        "walk_rate": 0.397
+      },
+      "Anchor": {
+        "mean_payout": 3820.92,
+        "median_payout": 500.0,
+        "payout_1000_or_more": 0.425,
+        "payout_32000_or_more": 0.0442,
+        "millionaire_count": 0,
+        "mean_steps": 4.5,
+        "mean_lifelines_used": 0.764,
+        "walk_rate": 0.797
+      },
+      "Compass": {
+        "mean_payout": 32839.75,
+        "median_payout": 1000.0,
+        "payout_1000_or_more": 0.6433,
+        "payout_32000_or_more": 0.2692,
+        "millionaire_count": 11,
+        "mean_steps": 7.44,
+        "mean_lifelines_used": 1.269,
+        "walk_rate": 0.156
+      }
+    },
+    "ablation": {
+      "mean_difference": 19975.83,
+      "median_difference": 0.0,
+      "bootstrap95": [
+        14060.56,
+        26255.73
+      ],
+      "positive_pair_rate": 0.223,
+      "negative_pair_rate": 0.033
+    }
+  }
+}

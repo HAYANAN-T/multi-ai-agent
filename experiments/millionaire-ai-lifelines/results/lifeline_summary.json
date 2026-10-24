@@ -1,0 +1,61 @@
+{
+  "Flash_FRIEND": {
+    "n": 404,
+    "mean_before": 0.478,
+    "mean_after": 0.681,
+    "round_median": 9
+  },
+  "Chorus_AUDIENCE": {
+    "n": 1175,
+    "mean_before": 0.799,
+    "mean_after": 0.998,
+    "round_median": 3
+  },
+  "Switch_50:50": {
+    "n": 949,
+    "mean_before": 0.677,
+    "mean_after": 0.823,
+    "round_median": 5
+  },
+  "Switch_FRIEND": {
+    "n": 342,
+    "mean_before": 0.458,
+    "mean_after": 0.676,
+    "round_median": 9
+  },
+  "Compass_50:50": {
+    "n": 662,
+    "mean_before": 0.565,
+    "mean_after": 0.76,
+    "round_median": 7
+  },
+  "Anchor_FRIEND": {
+    "n": 598,
+    "mean_before": 0.699,
+    "mean_after": 0.78,
+    "round_median": 6
+  },
+  "Anchor_50:50": {
+    "n": 319,
+    "mean_before": 0.613,
+    "mean_after": 0.813,
+    "round_median": 8
+  },
+  "Compass_FRIEND": {
+    "n": 497,
+    "mean_before": 0.543,
+    "mean_after": 0.722,
+    "round_median": 9
+  },
+  "Compass_AUDIENCE": {
+    "n": 364,
+    "mean_before": 0.478,
+    "mean_after": 0.569,
+    "round_median": 11
+  },
+  "audience": {
+    "n": 1539,
+    "misconception_rate": 0.182,
+    "wrong_majority_rate": 0.183
+  }
+}
